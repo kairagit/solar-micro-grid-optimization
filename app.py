@@ -86,5 +86,3 @@ elif net_power > 0:
 else:
     st.warning("⚠️ **System Notice:** Battery reserves low or standard tariffs active. Operating on balanced grid integration.")
 
-st.markdown("---")
-st.caption("💡 **Hackathon Presentation Tip:** During your demo, slide the **Peak Tariff** checkbox on and off while adjusting the **Solar Generation** slider to show the judges how the algorithm dynamically alters the system behavior in real-time.")
